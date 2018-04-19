@@ -1,2 +1,2 @@
 # DeluxeChat
-DeluxeChat Configs
+https://www.spigotmc.org/resources/deluxechat.1277/
