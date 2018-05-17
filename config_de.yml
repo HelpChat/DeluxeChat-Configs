@@ -27,7 +27,7 @@
 #     - ''
 #     channel_click_command: ''
 #     prefix_click_command: '/ranks'
-#     name_click_command: '/msg %player% '
+#     name_click_command: '/msg %player_name% '
 #     suffix_click_command: ''
 #   Member:
 #     priority: 100
@@ -47,7 +47,7 @@
 #     - ''
 #     channel_click_command: ''
 #     prefix_click_command: '/ranks'
-#     name_click_command: '/msg %player% '
+#     name_click_command: '/msg %player_name% '
 #     suffix_click_command: ''
 check_updates: true
 bungeecord:
@@ -103,5 +103,5 @@ formats:
     - ''
     channel_click_command: /ranks'
     prefix_click_command: /ranks'
-    name_click_command: '/msg %player% '
+    name_click_command: '/msg %player_name% '
     suffix_click_command: ''
