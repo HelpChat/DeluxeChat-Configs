@@ -1,9 +1,9 @@
 # Created by extended:clip
-# Creati cate format-uri doriti dupa - formats:
+# Creati formaturile dupa "formats:"
 # Fiecare format trebuie create dupa modelul de mai jos
 # iar fiecare format necesita o prioritate proprie, numar mare = prioritate scazuta
 # exemplu: membru - 100, owner - 1
-#   NU STERGETI FORMATUL "default"! Este folosit pentru cazurile cand un membru nu are o permisiune pentru un anumit format!
+#   NU STERGETI FORMATUL "default"! Este folosit pentru cazurile in care un membru nu are o permisiune pentru un alt format!
 #   
 # Modelul pentru format-uri:
 # formats: 
