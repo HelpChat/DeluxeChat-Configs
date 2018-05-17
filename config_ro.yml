@@ -1,0 +1,105 @@
+# Created by extended:clip
+# Creati cate format-uri doriti dupa - formats:
+# Fiecare format trebuie create dupa modelul de mai jos
+# iar fiecare format necesita o prioritate proprie, numar mare = prioritate scazuta
+# exemplu: membru - 100, owner - 1
+#   NU STERGETI FORMATUL "default"! Este folosit pentru cazurile cand un membru nu are o permisiune pentru un anumit format!
+#   
+# Modelul pentru format-uri:
+# formats: 
+#   default:
+#     priority: 2147483647
+#     channel: ''
+#     prefix: '&8[&7Guest&8] '
+#     name_color: '&7'
+#     name: '%player_name%'
+#     suffix: '&7> '
+#     chat_color: '&f'
+#     channel_tooltip:
+#     - '&7%player_name% &beste un Oaspete'
+#     prefix_tooltip:
+#     - '&7%player_name% &beste un Oaspete'
+#     name_tooltip:
+#     - ''
+#     suffix_tooltip:
+#     - ''
+#     channel_click_command: ''
+#     prefix_click_command: '/ranks'
+#     name_click_command: '/msg %player% '
+#     suffix_click_command: ''
+#   Member:
+#     priority: 100
+#     channel: ''
+#     prefix: '&8[&aMember&8] '
+#     name_color: '&7'
+#     name: '%player_name%'
+#     suffix: '&7> '
+#     chat_color: '&f'
+#     channel_tooltip:
+#     - '&7%player_name% &beste un Membru'
+#     prefix_tooltip:
+#     - '&7%player_name% &beste un Membru'
+#     name_tooltip:
+#     - ''
+#     suffix_tooltip:
+#     - ''
+#     channel_click_command: ''
+#     prefix_click_command: '/ranks'
+#     name_click_command: '/msg %player_name% '
+#     suffix_click_command: ''
+check_updates: true
+bungeecord:
+  enabled: false
+  servername: '&8[&cServer&8]'
+  join_global: true
+relation_placeholders_enabled: true
+timestamp_format: MM/dd/yy HH:mm:ss
+boolean:
+  'true': '&atrue'
+  'false': '&cfalse'
+ops_use_group_format: false
+chat_filter:
+  enabled: false
+  ignore_case: true
+  list:
+  - '.; '
+  - fuck;fuck
+private_message:
+  enabled: true
+  bungeecord: false
+private_message_formats:
+  to_sender:
+    format: '&7Tu &e-> &7%recipient_player_name% &7:'
+    tooltip:
+    - '%player_server%'
+    click_command: '/r '
+    chat_color: '&f'
+  to_recipient:
+    format: '&7%player_name% &e-> &7Tu &7:'
+    tooltip:
+    - '%player_server%'
+    click_command: '/r '
+    chat_color: '&f'
+  social_spy: '&8[&cspy&8] &f%player% &e-> &f%recipient%&7:'
+formats:
+  default:
+    priority: 2147483647
+    channel: ''
+    prefix: '&7[%vault_groupprefix%&7] '
+    name_color: '&b'
+    name: '%player_name%'
+    suffix: '&7> '
+    chat_color: '&f'
+    channel_tooltip:
+    - ''
+    prefix_tooltip:
+    - '%player_name%'
+    - '&bRank: %vault_group%'
+    name_tooltip:
+    - ''
+    suffix_tooltip:
+    - ''
+    channel_click_command: /ranks'
+    prefix_click_command: /ranks'
+    name_click_command: '/msg %player_name% '
+    suffix_click_command: ''
