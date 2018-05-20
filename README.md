@@ -113,7 +113,7 @@ All of your chat formats are loaded from the config.yml
 To create a custom chat format just copy the default chat format section from the `formats:` section and paste it below default!  
 You can find an example-config [here](https://github.com/help-chat/DeluxeChat/tree/master/configs/config.yml)!
 
-​## Placeholders
+​## Placeholders  
 DeluxeChat 1.12.0 or higher uses any placeholder provided by [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/).  
 You must have PlaceholderAPI installed on your server for DeluxeChat 1.12+ to work.
 
