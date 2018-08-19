@@ -155,13 +155,6 @@ After this is done, you can begin using his placeholders with the following plac
 ### For DeluxeChat Version 1.12 or above
 DeluxeChat uses [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) for its placeholders from this version and onward. [Hooking into PlaceholderAPI for Developers](https://www.spigotmc.org/wiki/hooking-into-placeholderapi/).
 
-### For DeluxeChat Version 1.11.1 or below
-If you are a developer and want to add placeholders to DeluxeChat, you can too!  
-Click [here](https://github.com/extendedclip/DeluxeChatPlaceholderAPI/blob/master/src/me/clip/placeholdertest/PlaceholderTestPlugin.java) for examples on how to do that.
-
-If you don't have DeluxeChat, but still want to add placeholders for people who use your plugin, you can use this API-package:  
-[DeluxeChat placeholder API](https://github.com/extendedclip/DeluxeChatPlaceholderAPI/tree/master/src/me/clip/deluxechat/placeholders)
-
 ## Known issues/Bugs
 The latest version of DeluxeChat is compatible with Bukkit/Spigot 1.9/1.10/1.11/1.12  
 for older version support check the version history tab. those old versions are available but no longer supported.
