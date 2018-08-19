@@ -152,10 +152,10 @@ After this is done, you can begin using his placeholders with the following plac
 [Click here for Maxims 2000+ placeholders](http://www.spigotmc.org/wiki/mvdw-placeholders/)
 
 ## Hooking into DeluxeChat
-# For DeluxeChat Version 1.12 or above
+### For DeluxeChat Version 1.12 or above
 DeluxeChat uses [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) for its placeholders from this version and onward. [Hooking into PlaceholderAPI for Developers](https://www.spigotmc.org/wiki/hooking-into-placeholderapi/).
 
-# For DeluxeChat Version 1.11.1 or below
+### For DeluxeChat Version 1.11.1 or below
 If you are a developer and want to add placeholders to DeluxeChat, you can too!  
 Click [here](https://github.com/extendedclip/DeluxeChatPlaceholderAPI/blob/master/src/me/clip/placeholdertest/PlaceholderTestPlugin.java) for examples on how to do that.
 
