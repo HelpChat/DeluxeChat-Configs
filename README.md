@@ -168,5 +168,5 @@ Fanciful is licensed under MIT, the Fanciful license can be found
 [Here](https://github.com/mkremins/fanciful/blob/master/LICENSE)
 
 ## Links
-[![HelpChat Discord](https://discordapp.com/api/guilds/164280494874165248/embed.png)](https://discord.gg/FtArYRQ 'Join the Help Chat!') 
+[![HelpChat Discord](https://discordapp.com/api/guilds/164280494874165248/embed.png)](https://discord.gg/FtArYRQ 'Join the Help Chat!')  
 [SpigotMC](https://www.spigotmc.org/resources/deluxechat.1277/)
