@@ -1,9 +1,9 @@
 # Erstellt von extended:clip
-# Übersetzt von Andre_601 (https://github.com/Andre601)
+# Übersetzt von Andre_601 (https://andre601.com)
 #
 # Du kannst so viele Formate erstellen, wie du willst.
 # Stelle sicher, dass diese unter "formats:" gelistet sind und folgendes haben:
-# - Einen einzigartigen namen (Du kannst z.B. nicht zwei "member" formate haben.
+# - Einen einzigartigen namen (Du kannst z.B. nicht zwei Formate mit dem namen "memeber" haben).
 # - Eine Priorität (Unter "priority"). Hohe Nummer = niedrigere Priorität.
 #
 # Du MUSST ein Format mit dem namen default haben!
