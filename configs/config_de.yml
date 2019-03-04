@@ -1,13 +1,18 @@
 # Erstellt von extended:clip
 # Übersetzt von Andre_601 (https://github.com/Andre601)
 #
-# Erstelle so viele Formate wie du willst unter formats:
-# Jedes Format benötigt eine Standart-Vorlage, welche verändert werden sollte.
-# Die Formate benötigen ausserdem noch eine einzigartige Nummer für die Priorität. Höhere Nummer = niedrigere Priotität
-# Bsp: guest-100, owner-1
-#   DU MUSST EIN FORMAT NAMENS default HABEN! Es wird verwendet, wenn der Spieler keine andere Vorlage hat.
+# Du kannst so viele Formate erstellen, wie du willst.
+# Stelle sicher, dass diese unter "formats:" gelistet sind und folgendes haben:
+# - Einen einzigartigen namen (Du kannst z.B. nicht zwei "member" formate haben.
+# - Eine Priorität (Unter "priority"). Hohe Nummer = niedrigere Priorität.
+#
+# Du MUSST ein Format mit dem namen default haben!
+# Dieses Format wird verwendet, wenn der Spieler keine anderen verfügbar hat.
+#
+# Einem Spieler/Einer Gruppe gibst du ein Format mit der permission chatformat.<format name>
+# Gib der Standard-Gruppe die permission chatformat.default (Diese wird nicht automatisch gegeben)
 #   
-# Beispiel-Format für Formate:
+# Beispiel für Formate:
 # formats: 
 #   default:
 #     priority: 2147483647
@@ -21,13 +26,11 @@
 #     - '&7%player_name% &bist ein Gast'
 #     prefix_tooltip:
 #     - '&7%player_name% &bist ein Gast'
-#     name_tooltip:
-#     - ''
-#     suffix_tooltip:
-#     - ''
+#     name_tooltip: [] # Setze [], wenn du keinen Hovertext willst.
+#     suffix_tooltip: []
 #     channel_click_command: ''
 #     prefix_click_command: '/ranks'
-#     name_click_command: '/msg %player_name% '
+#     name_click_command: '/msg %player_name% ' # Der placeholder wird zum Namen vom SENDER geändert.
 #     suffix_click_command: ''
 #   Member:
 #     priority: 100
@@ -41,10 +44,8 @@
 #     - '&7%player_name% &bist ein Member'
 #     prefix_tooltip:
 #     - '&7%player_name% &bist ein Member'
-#     name_tooltip:
-#     - ''
-#     suffix_tooltip:
-#     - ''
+#     name_tooltip: []
+#     suffix_tooltip: []
 #     channel_click_command: ''
 #     prefix_click_command: '/ranks'
 #     name_click_command: '/msg %player_name% '
