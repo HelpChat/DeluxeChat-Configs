@@ -1,11 +1,17 @@
 # Created by extended:clip
-# list as many format sections you want under formats:
-# each format section requires a default template that should be modified and
-# also requires a unique number for the priority higher number = lower priority
-# ex: guest-100, owner-1
-#   YOU MUST KEEP A default TEMPLATE! It is used when players have no other template assigned!
+#
+# You can create as many formats as you like.
+# Make sure each format has the following things:
+# - A unique format name (You f.e. can't have two formats called "member").
+# - A set priority (under priority). Higher number = lower priority.
+#
+# You NEED to have a format called default!
+# It will be used, if the player doesn't have any other format available.
+#
+# You give a format to a player/group with the permission chatformat.<format name>
+# You should give the permission chatformat.default to the default group, since this isn't done automatically.
 #   
-# example format template:
+# example for formats:
 # formats: 
 #   default:
 #     priority: 2147483647
@@ -19,13 +25,11 @@
 #     - '&7%player_name% &bis a Guest'
 #     prefix_tooltip:
 #     - '&7%player_name% &bis a Guest'
-#     name_tooltip:
-#     - ''
-#     suffix_tooltip:
-#     - ''
+#     name_tooltip: [] # Set this to [] if you don't want any hovertext.
+#     suffix_tooltip: []
 #     channel_click_command: ''
 #     prefix_click_command: '/ranks'
-#     name_click_command: '/msg %player_name% '
+#     name_click_command: '/msg %player_name% ' # The placeholder will be replaced with the name of the SENDER (Not yours).
 #     suffix_click_command: ''
 #   Member:
 #     priority: 100
@@ -39,10 +43,8 @@
 #     - '&7%player_name% &bis a Member'
 #     prefix_tooltip:
 #     - '&7%player_name% &bis a Member'
-#     name_tooltip:
-#     - ''
-#     suffix_tooltip:
-#     - ''
+#     name_tooltip: []
+#     suffix_tooltip: []
 #     channel_click_command: ''
 #     prefix_click_command: '/ranks'
 #     name_click_command: '/msg %player_name% '
