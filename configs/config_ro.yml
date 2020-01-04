@@ -1,13 +1,15 @@
 # Creat de catre extended_clip
-# Tradus de catre GabyTM (https://github.com/Gaby-TM)
+# Tradus de catre GabyTM (https://github.com/Gaby-TM) & Gabitzuu (https://github.com/Gabitzuu)
 # 
-# Creati-va formaturile dupa "formats:"
-# Fiecare format trebuie create dupa modelul de mai jos
-# iar fiecare format necesita o prioritate proprie, numar mare = prioritate scazuta
-# Exemplu: membru - 100, owner - 1
-#   NU STERGETI FORMATUL "default"! Este folosit pentru cazurile in care un membru nu are o permisiune pentru un alt format!
-#   
-# Modelul pentru format-uri:
+# Toate formatele trebuie create dupa "formats:"
+# Fiecare format trebuie sa urmeze modelul de mai jos.
+# Fiecare format necesita o anumita prioritate, cu cat acel numar este mai mare, cu atat prioritatea este mai scazuta
+# EXEMPLU: membru - 100, fondator - 1
+# ! ! ! NU STERGETI FORMATUL "default"! El este formatul folosit in cazul in care un jucator nu are permisiunea de a folosi alt format.
+#
+#
+# Exemplu format:
+#
 # formats: 
 #   default:
 #     priority: 2147483647
@@ -49,6 +51,8 @@
 #     prefix_click_command: '/ranks'
 #     name_click_command: '/msg %player_name% '
 #     suffix_click_command: ''
+#
+#
 check_updates: true
 bungeecord:
   enabled: false
@@ -77,7 +81,7 @@ private_message_formats:
     click_command: '/r '
     chat_color: '&f'
   to_recipient:
-    format: '&7%player_name% &e-> &7Tu &7:'
+    format: '&7%player_name% &e-> &7tine &7:'
     tooltip:
     - '%player_server%'
     click_command: '/r '
